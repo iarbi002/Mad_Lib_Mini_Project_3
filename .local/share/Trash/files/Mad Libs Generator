@@ -1,0 +1,64 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Adjective = "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Words_Needed = [\"Adjective, \"Adverb\", \"Body_Part\", \"Color\", \"Event\", \"Food\", \"Fruit\", \"Liquid\", \"Material\", \"Name\", \"Place\", \"Noun\", \"Noun_Plural\", \"Number\", \"Vegetable\", \"Verb\"]\n",
+    "Dictonary = {}\n",
+    "\n",
+    "for Word in Words_Needed:\n",
+    "    Temp_Word = input(f\"Write a(an) {Word}:\")\n",
+    "    Dictonary[Word] = Temp_Word"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "print (f\"{Dictonary['Name']} the squirrel had just climbed up the {Dictonary['Adjective']} tree. It was the first day of autumn and time to gather as many {Dictonary['Noun_Plural']} for winter feasting.\")\n",
+    "print (f\"Hi, I'm {Dictonary['Name']}. I'm a marketing professional! It's a sweet job! My day typically begins at {Dictonary['Number']} a.m. with a cup of lukewarm {Dictonary['Liquid']} and some stale {Dictonary['Food']}.\")\n",
+    "print (f\"Pizza was invented by a {Dictonary['Adjective']} chef named {Dictonary['Name']}. To make pizza, you need to take a lump of {Dictonary['Noun']}, and make a thin, round {Dictonary['Adjective']} {Dictonary['Noun']}.\")\n",
+    "print (f\"Here is a list of the most {Dictonary['Adjective']} horror movies ever made in Hollywood! Each of these {Dictonary['Number']} films received a rating of {Dictonary['Body_Part']}-up from Siskel and Ebert.\") \n",
+    "print (f\"Okay, so I was {Dictonary['Verb']}! I'm a kid, I'm supposed to snoop, especially around {Dictonary['Event']} time! Who doesn't snoop?!\")\n",
+    "print (f\"A bite of the saffron {Dictonary['Food']}, and you're back in sunny {Dictonary['Place']}. A spooful of the housemade {Dictonary['Liquid']} is deeply satisfying, like a great lost love scene between Miranda July and {Dictonary['Name']}.\")\n",
+    "print (f\"More {Dictonary['Noun_Plural']} around the world {Dictonary['Verb']} bycicles than drive. No matter what kind of {Dictonary['Noun']} you {Dictonary['Verb']}, always be sure to wear a {Dictonary['Adjective']} helmet.\")\n",
+    "print (f\"Did you ever have one of those {Dictonary['Noun_Plural']}? Well, today {Dictonary['Name']} did! {Dictonary['Name']} wanted to {Dictonary['Verb']} {Dictonary['Noun']} up for {Dictonary['Event']}.\")\n",
+    "print (f\"My name is {Dictonary['Name']} and I have lived in {Dictonary['Place']} for {Dictonary['Number']} years. I {Dictonary['Verb']} all the way from {Dictonary['Noun']} to celebrate today!\")\n",
+    "print (f\"A vacation is when you take a trip to some {Dictonary['Adjective']} place with your family. Usually you go to some place that is near a {Dictonary['Noun']}. A good vacation place is one where you can ride {Dictonary['Noun_Plural']}.\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "name": ""
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
